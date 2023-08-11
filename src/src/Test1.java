@@ -5,7 +5,8 @@ public class Test1
 	public static void main (String args[])
 	{
 	
-		System.out.println("Musrif");
+		System.out.println("New");
+		
 		System.out.println(getnumber(10));
 	}
 	
