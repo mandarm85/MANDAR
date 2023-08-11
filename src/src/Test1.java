@@ -3,57 +3,40 @@ package src;
 public class Test1 
 {
 	public static void main (String args[])
-	{
+	{	
+		P1();
+		P2();
+		P3();
+	}	
 	
-		System.out.println("New");
-		
-		System.out.println(getnumber(10));
+	public static void P1()
+	{
+		Integer I = 150;
+		Integer J = 150;
+		System.out.println(I==J);
+	}
+	
+	public static void P2()
+	{
+		Integer K = 100;
+		Integer L = 100;
+		System.out.println(K==L);
+	}
+	
+	
+	public static void P3()
+	{
+		byte K = 127;
+		K++; //
+		System.out.println(K);
 	}
 	
 	
 	
-	static int getnumber(int x)
-	{
-		try 
-		{		
-			System.out.println("In Try");
-			
-			 //int A= 10/0;
-
-			
-			
-			 //String s = null; System.out.println(s.toString());
-			 
-			 
-			 
-			 
-			
-			 //char[] char_arr = { 'a', 'b', 'c', 'd', 'e' }; System.out.println(char_arr[10]);
-			 
-			
-			
-			 //int[] int_arr = new int[8]; System.out.println(int_arr[10]);
-			 
-			
-			
-			return 10;
-		}
-		catch (Exception e)
-		{
-			System.out.println("in Catch");
-			System.out.println(e.getClass());
-			System.out.println(e.getMessage());
-			System.out.println(e.getCause());
-			
-		}
-		finally
-		{
-			System.out.println("In Finally");
-			return 100;
-		}
-		
-		
-	}
+	
+	
+	
+	
 	
 }
 
