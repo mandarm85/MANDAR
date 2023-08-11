@@ -20,22 +20,13 @@ public class Test1
 			
 			 //int A= 10/0;
 
-			
-			
 			 //String s = null; System.out.println(s.toString());
-			 
-			 
-			 
-			 
+
 			
 			 //char[] char_arr = { 'a', 'b', 'c', 'd', 'e' }; System.out.println(char_arr[10]);
-			 
-			
-			
+
 			 //int[] int_arr = new int[8]; System.out.println(int_arr[10]);
-			 
-			
-			
+
 			return 10;
 		}
 		catch (Exception e)
