@@ -1,6 +1,6 @@
 package src;
 
-public class Test1 
+public class SmallProgramms 
 {
 	public static void main (String args[])
 	{	
@@ -23,21 +23,12 @@ public class Test1
 		System.out.println(K==L);
 	}
 	
-	
 	public static void P3()
 	{
 		byte K = 127;
 		K++; //
 		System.out.println(K);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 }
 
 
