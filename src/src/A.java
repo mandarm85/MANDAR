@@ -12,24 +12,22 @@ public class A
 	public static void main(String []args)
 	{
 		
-		//B b = new B(); 
-		C c = new C();
-		
-		c.methodA();
-		c.methodB();
-		c.methodC();
-		System.out.println(c.A);
-		System.out.println(c.B);
-		System.out.println(c.C);
-		
-		
-		System.out.println(c.getClass());
-		B b= new B();
-		System.out.println(b.getClass());
-		A a = new A();
-		System.out.println(a.getClass());
-
-		
+		C c= new C();
+		  c.methodA(); 
+		  c.methodB(); 
+		  c.methodC(); 
+		  System.out.println(c.A);
+		  System.out.println(c.B); 
+		  System.out.println(c.C);
+		  
+		  
+		  System.out.println(c.getClass()); 
+		  B b= new B();
+		  System.out.println(b.getClass()); 
+		  A a = new A();
+		  System.out.println(a.getClass());
+		 
+	
 		
 
 	}
